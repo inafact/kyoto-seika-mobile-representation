@@ -1,0 +1,4 @@
+# vite-plugin-pwa の開発用 Service Worker 出力
+dev-dist/
+# wrangler のローカル状態
+.wrangler/

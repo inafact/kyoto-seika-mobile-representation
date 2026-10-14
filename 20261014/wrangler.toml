@@ -1,0 +1,5 @@
+# Cloudflare Pages プロジェクト設定
+# `npm run deploy` (wrangler pages deploy) がこの設定を読み込む
+name = "pwa-device-demo"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"

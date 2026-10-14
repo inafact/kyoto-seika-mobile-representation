@@ -1,0 +1,32 @@
+{
+  "name": "pwa-device-demo",
+  "version": "1.0.0",
+  "description": "iOS Safari / Android Chrome 両対応のPWAデバイス機能デモ",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host",
+    "generate-pwa-assets": "pwa-assets-generator",
+    "deploy": "npm run build && wrangler pages deploy"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@vite-pwa/assets-generator": "^2.0.0",
+    "@webgpu/types": "^0.1.74",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "vite-plugin-pwa": "^2.0.0",
+    "workbox-core": "^7.4.1",
+    "workbox-precaching": "^7.4.1",
+    "workbox-routing": "^7.4.1",
+    "wrangler": "^4.150.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "workerd@1.20261006.1": true
+  },
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  }
+}
