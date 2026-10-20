@@ -1,6 +1,6 @@
 # PWA デバイス機能デモ
 
-[mobile-web-device-capabilities-2026.md](./mobile-web-device-capabilities-2026.md) の調査結果をもとに、iOS Safari（Safari 26）と Android Chrome の最新版で Web から使えるデバイス機能を試せる PWA です。Vite + vanilla TypeScript で作っていて、実行時の依存ライブラリはありません。
+調査結果をもとに、iOS Safari（Safari 26）と Android Chrome の最新版で Web から使えるデバイス機能を試せる PWA です。Vite + vanilla TypeScript で作成、実行時の依存ライブラリはありません。
 
 ## デモ一覧
 
