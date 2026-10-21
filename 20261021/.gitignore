@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+
+# Xcode のユーザーごとのデータ・ビルド成果物
+xcuserdata/
+*.xcuserstate
+build/
+DerivedData/
+
+# 各自の署名設定（Config/Local.xcconfig.example をコピーして作る）
+Config/Local.xcconfig

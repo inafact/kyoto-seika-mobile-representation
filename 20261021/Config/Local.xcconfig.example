@@ -1,0 +1,10 @@
+// 各自の署名設定。このファイルを同じフォルダに Local.xcconfig という名前でコピーし、値を書き換える。
+//   cp Config/Local.xcconfig.example Config/Local.xcconfig
+// Local.xcconfig は .gitignore で除外されているので、リポジトリには入らない。
+
+// Apple Developer の Team ID（Xcode の Settings → Accounts、または developer.apple.com の Membership で確認できる）
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+
+// バンドル ID の接頭辞。アプリのバンドル ID は「<接頭辞>.<ターゲット名>」になる
+// 例: com.yourname → com.yourname.RealityKitArrowSample
+BUNDLE_ID_PREFIX = com.yourname

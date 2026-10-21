@@ -1,0 +1,8 @@
+// 署名の既定値。両プロジェクトのターゲットがこのファイルを読み込む。
+// 各自の Team ID とバンドル ID の接頭辞は Config/Local.xcconfig（gitignore 済み）に書く。
+// 作り方は Config/Local.xcconfig.example を参照。
+
+BUNDLE_ID_PREFIX = com.example
+DEVELOPMENT_TEAM =
+
+#include? "Local.xcconfig"
